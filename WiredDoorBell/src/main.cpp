@@ -6,7 +6,7 @@
 
 // #DNN:Hardware: No R -> MAX; 10R * 2 -> Volume 2; 100R -> Volume 3
 WiredDoorBell doorBell(5);
-TogglePushButton button(2, doorBell);
+TogglePushButton button(0, doorBell);
 
 void setup()
 {
